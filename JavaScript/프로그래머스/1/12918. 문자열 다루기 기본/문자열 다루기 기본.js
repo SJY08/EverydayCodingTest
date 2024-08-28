@@ -1,0 +1,1 @@
+let solution = s => (s.length == 4 || s.length==6) ? [...s].filter(a=> !isNaN(a)).length != s.length ? false:true : false
