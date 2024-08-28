@@ -1,0 +1,1 @@
+let solution = p => [...p].map((a,i)=>i<p.length-4?"*":a).join("")
