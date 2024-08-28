@@ -1,0 +1,1 @@
+let solution = s => [...s].sort().reverse().join("")
