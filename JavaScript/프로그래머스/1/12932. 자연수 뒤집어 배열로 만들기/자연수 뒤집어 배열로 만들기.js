@@ -1,0 +1,1 @@
+let solution = n => [...""+n].reverse().map(a=>+a)
