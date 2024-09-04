@@ -1,0 +1,1 @@
+let solution = order => (""+order).replace(/[^369]/g,'').length
