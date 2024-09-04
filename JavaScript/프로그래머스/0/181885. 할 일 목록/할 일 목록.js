@@ -1,0 +1,1 @@
+let solution = (todo_list, finished) => todo_list.filter((v,i)=>!finished[i])
