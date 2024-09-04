@@ -1,0 +1,1 @@
+let solution = num_list => num_list.filter(a=>a<0).length?num_list.indexOf(num_list.filter(a=>a<0)[0]):-1
