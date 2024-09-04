@@ -1,0 +1,1 @@
+let solution = num_list => Math.max(num_list.filter((_,i)=>i%2==0).reduce((a,b)=>a+b,0),num_list.filter((_,i)=>i%2!=0).reduce((a,b)=>a+b,0))
