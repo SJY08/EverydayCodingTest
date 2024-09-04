@@ -1,0 +1,1 @@
+let solution=(a,b)=>Math.max(2*a*b,""+a+b)
