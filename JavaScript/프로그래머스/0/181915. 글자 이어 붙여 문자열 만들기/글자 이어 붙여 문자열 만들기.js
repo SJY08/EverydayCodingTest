@@ -1,0 +1,1 @@
+let solution = (my_string,index_list) => index_list.map(v => my_string[v]).join("")
