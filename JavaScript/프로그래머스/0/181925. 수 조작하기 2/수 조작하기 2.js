@@ -1,0 +1,1 @@
+let solution = numLog => numLog.map((a,i)=>a-numLog[i-1]).map(a=>a==1?"w":a==-1?"s":a==10?"d":'a').join("").slice(1)
