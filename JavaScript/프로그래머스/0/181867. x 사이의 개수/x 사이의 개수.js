@@ -1,0 +1,1 @@
+let solution = myString => myString.split("x").map(a=>a.length)
