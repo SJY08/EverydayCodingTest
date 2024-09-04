@@ -1,0 +1,1 @@
+let solution = (arr,idx) => arr.slice(idx).indexOf(1)>=0?arr.slice(idx).indexOf(1)+idx:-1
