@@ -1,0 +1,1 @@
+let solution = (a,b) => Math.max(""+a+b,""+b+a)
