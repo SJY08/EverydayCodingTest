@@ -1,0 +1,1 @@
+let solution = strArr => strArr.filter(v=>!v.includes("ad"))
