@@ -1,0 +1,1 @@
+let solution = (num,k) => [...""+num].indexOf(""+k)<0?-1:[...""+num].indexOf(""+k)+1
