@@ -1,5 +1,1 @@
-function solution(n, k) {
-    let answer = [];
-    for(let i = k ; i <= n ; i+=k) answer.push(i)
-    return answer;
-}
+let solution = (n,k) => new Array(n).fill(0).map((v,i)=>v+i+1).filter((v,i)=>v%k==0)
