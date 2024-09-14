@@ -1,0 +1,1 @@
+let solution = number => [...number].reduce((a,b)=>+a+(+b),0)%9 
