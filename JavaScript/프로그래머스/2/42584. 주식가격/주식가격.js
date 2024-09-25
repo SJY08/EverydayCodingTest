@@ -5,18 +5,18 @@ return 가격이 떨어지지 않은 기간이 담긴 배열
 1.prices 반복
     
 2. now 변수 선언, prices[i] 대입 && sec 변수 선언 0 대입
-2-1. i == prices.length-1?
-        answer.push(sec)
+2-1. i가 prices의 마지막인덱스 ?
+        answer에 sec 푸시
 
 3. prices를 i인덱스 다음부터 반복
-    3-1. now <= prices[j]
-        sec++
-    3-2. now > prices[j]
-        answer.push(sec+1)
-        break
-    3-3. j == prices.length-1
-        answer.push(sec)
-return answer
+    3-1. now가 prices[j] 이하라면
+        sec 1 증가
+    3-2. now가 prices[j]보다 크다면
+        answer에 sec+1 값을 푸시
+        반복 종료(break)
+    3-3. j가 prices의 마지막 인덱스라면?
+        answer에 sec 푸시
+answer 반환
 */
 
 function solution(prices){
