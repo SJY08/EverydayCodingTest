@@ -1,0 +1,1 @@
+let solution=(str1,str2)=>[...str1].map((v,i)=>v+str2[i]).join("")
