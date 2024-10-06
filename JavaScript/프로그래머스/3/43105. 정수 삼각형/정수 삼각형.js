@@ -1,0 +1,1 @@
+let solution = t => t.reduceRight((v,i)=>i.map((a,j)=>a+Math.max(v[j],v[j+1])))[0]
