@@ -1,1 +1,1 @@
-let solution = s => s.split(" ").map(a=>[...a].map((b,i)=>i==0?b.toUpperCase():b.toLowerCase()).join("")).join(" ")
+let solution = s => s.split(" ").map(a=>[...a].map((v,i)=>i==0?v.toUpperCase():v.toLowerCase()).join("")).join(" ")
