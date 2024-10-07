@@ -1,5 +1,1 @@
-function solution(start_num, end_num) {
-    let answer = []
-    for(let i = start_num ; i <= end_num ; i++) answer.push(i)
-    return answer;
-}
+let solution=(start_num,end_num)=>new Array(end_num-start_num+1).fill(0).map((_,i)=>start_num+i)
