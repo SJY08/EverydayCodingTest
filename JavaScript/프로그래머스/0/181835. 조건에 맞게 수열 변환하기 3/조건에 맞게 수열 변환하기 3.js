@@ -1,1 +1,1 @@
-let solution = (arr,k) => k%2==0?arr.map(v=>v+k):arr.map(v=>v*k)
+let solution = (arr,k) => arr.map(v=>k%2==0?v+k:v*k)
