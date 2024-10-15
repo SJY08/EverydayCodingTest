@@ -1,0 +1,1 @@
+let solution=(num_list,n)=>num_list.map((v,i)=>i%n==0?num_list.slice(i,i+n):[]).filter(a=>a.length)
