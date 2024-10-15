@@ -1,0 +1,1 @@
+let solution=(my_string,indices)=>[...my_string].filter((_,i)=>!indices.includes(i)).join("")
