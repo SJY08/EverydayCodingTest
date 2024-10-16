@@ -1,1 +1,1 @@
-let solution = (arr,n) => arr.length%2==0?arr.map((v,i)=>i%2!=0?v+n:v):arr.map((v,i)=>i%2==0?v+n:v)
+let solution = (arr,n) => arr.map((v,i)=>arr.length%2==0?i%2!=0?v+n:v:i%2==0?v+n:v)
