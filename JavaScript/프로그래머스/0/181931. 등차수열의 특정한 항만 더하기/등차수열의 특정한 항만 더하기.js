@@ -1,0 +1,1 @@
+let solution=(a,d,included)=>new Array(included.length).fill(a).map((v,i)=>v+d*i).filter((_,i)=>included[i]).reduce((a,b)=>a+b,0)
