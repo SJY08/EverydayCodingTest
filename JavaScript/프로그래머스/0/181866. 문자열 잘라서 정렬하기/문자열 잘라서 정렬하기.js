@@ -1,0 +1,1 @@
+let solution = myString => myString.split("x").filter(a=>a!="").sort()
