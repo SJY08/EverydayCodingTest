@@ -1,0 +1,1 @@
+let solution = phone_book => !phone_book.sort().some((v,i)=>phone_book[i+1]?.startsWith(v))
