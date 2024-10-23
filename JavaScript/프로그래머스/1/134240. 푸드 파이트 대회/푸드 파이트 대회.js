@@ -1,0 +1,1 @@
+let solution = food => food.slice(1).map((v,i)=>(""+(i+1)).repeat(Math.floor(v/2))).join("")+0+food.slice(1).map((v,i)=>(""+(i+1)).repeat(Math.floor(v/2))).reverse().join("")
