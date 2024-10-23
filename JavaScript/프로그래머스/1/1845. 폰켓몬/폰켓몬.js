@@ -1,0 +1,1 @@
+let solution=nums=>Math.min(nums.length/2,[... new Set(nums)].length)
