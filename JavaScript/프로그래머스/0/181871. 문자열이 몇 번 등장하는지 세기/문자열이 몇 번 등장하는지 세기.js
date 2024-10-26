@@ -1,0 +1,1 @@
+let solution=(myString, pat)=>[...myString].filter((_,i)=>myString.slice(i).startsWith(pat)).length
