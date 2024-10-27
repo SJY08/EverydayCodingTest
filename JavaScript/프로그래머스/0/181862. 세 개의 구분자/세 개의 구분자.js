@@ -1,0 +1,1 @@
+let solution = myStr => myStr.split(/[abc]/g).filter(a=>a!="").length? myStr.split(/[abc]/g).filter(a=>a!=""):["EMPTY"]
