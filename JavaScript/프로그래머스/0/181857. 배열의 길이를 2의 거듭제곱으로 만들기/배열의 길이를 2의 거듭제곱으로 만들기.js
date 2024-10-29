@@ -1,0 +1,1 @@
+let solution=arr=>new Array(2**Math.ceil(Math.log2(arr.length))).fill(0).map((v,i)=>arr[i]?arr[i]:0)
