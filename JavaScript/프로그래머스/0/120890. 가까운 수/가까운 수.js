@@ -1,0 +1,1 @@
+let solution = (array,n) => array.sort((a,b)=>Math.abs(a-n)-Math.abs(b-n) ||a-b)[0]
