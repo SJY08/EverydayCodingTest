@@ -1,0 +1,1 @@
+let solution=array=>array.map(v=>[...(""+v)].filter(v=>v==7).length).reduce((a,b)=>a+b,0)
