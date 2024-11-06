@@ -1,0 +1,1 @@
+let solution = quiz => quiz.map(v=> eval(v.split("=")[0])==v.split("=")[1]?"O":"X")
