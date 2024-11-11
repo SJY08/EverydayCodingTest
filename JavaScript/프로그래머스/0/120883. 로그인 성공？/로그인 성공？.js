@@ -1,0 +1,1 @@
+let solution = (id_pw, db) => db.some(v=> v[0] == id_pw[0] && v[1] == id_pw[1]) ? "login" : db.some(v=> v[0] == id_pw[0] && v[1] != id_pw[1]) ? "wrong pw" : "fail"
