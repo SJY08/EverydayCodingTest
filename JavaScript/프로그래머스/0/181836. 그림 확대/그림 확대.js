@@ -1,0 +1,1 @@
+let solution = (picture, k) => picture.map(v=> Array(k).fill([...v].map(a=>a.repeat(k)).join(""))).flat()
