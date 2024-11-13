@@ -1,0 +1,1 @@
+let solution = (arr,k) =>arr.filter((v,i) => !arr.slice(0,i).includes(v)).concat(Array(k).fill(-1)).slice(0,k)
