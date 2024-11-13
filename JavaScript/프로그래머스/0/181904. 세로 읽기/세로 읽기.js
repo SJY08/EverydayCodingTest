@@ -1,0 +1,1 @@
+let solution = (my_string, m, c) => [...my_string].filter((v,i)=> i%m==c-1).join("")
