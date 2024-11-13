@@ -1,0 +1,1 @@
+let solution=(date1,date2)=>+(date1.map(v=>(""+v).padStart(5,"0")).join("")<date2.map(v=>(""+v).padStart(5,"0")).join(""))
