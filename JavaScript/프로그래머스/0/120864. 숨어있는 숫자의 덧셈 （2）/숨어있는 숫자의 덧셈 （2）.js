@@ -1,0 +1,1 @@
+let solution = my_string => my_string.split(/[^0-9]/g).reduce((a,b)=>+a+(+b),0)
