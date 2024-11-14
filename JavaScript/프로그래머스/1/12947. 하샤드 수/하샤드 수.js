@@ -1,1 +1,1 @@
-let solution = x => x%[...""+x].reduce((a,b)=>+a+(+b),0)==0?true:false
+let solution = x => x%[...""+x].reduce((a,b)=>+a+(+b),0)==0
