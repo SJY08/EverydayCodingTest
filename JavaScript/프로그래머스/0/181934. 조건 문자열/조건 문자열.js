@@ -1,0 +1,1 @@
+let solution = (ineq, eq, n, m) => +eval(`${n}${ineq}${eq=="="?"=":""}${m}`)
