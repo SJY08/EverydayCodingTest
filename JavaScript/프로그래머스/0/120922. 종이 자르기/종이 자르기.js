@@ -1,0 +1,1 @@
+let solution = (M,N) => M*N-1
