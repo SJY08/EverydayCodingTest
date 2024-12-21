@@ -2,12 +2,10 @@ import sys
 input = sys.stdin.read
 data = input().split()
 
-# 입력 데이터 읽기
 N, M, K = map(int, data[:3])
 arr = list(map(int, data[3:3 + N]))
 queries = data[3 + N:]
 
-# 펜윅 트리 구현
 class FenwickTree:
     def __init__(self, n):
         self.n = n
@@ -39,30 +37,25 @@ class FenwickTree:
         return self.prefix_sum(right) - self.prefix_sum(left - 1)
 
 
-# 펜윅 트리 초기화
 fenwick = FenwickTree(N)
 
-# 초기 배열 값 반영
 for i in range(1, N + 1):
     fenwick.range_add(i, i, arr[i - 1])
 
-# 결과 저장 리스트
 results = []
 
-# 쿼리 처리
 query_idx = 0
 while query_idx < len(queries):
     a = int(queries[query_idx])
     b = int(queries[query_idx + 1])
     c = int(queries[query_idx + 2])
 
-    if a == 1:  # 구간 업데이트
+    if a == 1:
         d = int(queries[query_idx + 3])
         fenwick.range_add(b, c, d)
         query_idx += 4
-    elif a == 2:  # 구간 합 쿼리
+    elif a == 2:
         results.append(fenwick.range_sum(b, c))
         query_idx += 3
 
-# 결과 출력
 sys.stdout.write("\n".join(map(str, results)) + "\n")
