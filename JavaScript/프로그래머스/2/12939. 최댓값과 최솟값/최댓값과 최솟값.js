@@ -1,1 +1,6 @@
-let solution = s => Math.min(...s.split(" "))+" "+Math.max(...s.split(" "))
+function solution(s) {
+    let arr = s.split(" ")
+    let max = Math.max(...arr)
+    let min = Math.min(...arr)
+    return "" + min + " " + max
+}
