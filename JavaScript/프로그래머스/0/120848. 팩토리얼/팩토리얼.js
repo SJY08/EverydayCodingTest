@@ -1,14 +1,12 @@
-function fact(n){
-    if(n<2) return 1
-    return n*fact(n-1)
-}
-
 function solution(n) {
-    let num=1
-    for(;;){
-        if(fact(num) > n) return num-1
-        else if(fact(num) == n) return num
-        else num++
+    let dp = new Array(10).fill(0)
+    dp[0] = 0
+    dp[1] = 1
+    
+    for(let i = 2 ; i < 11 ; i++) {
+        dp[i] = dp[i-1] * i
     }
+    
+    return dp.filter(v=> v<=n).length-1
 }
 
