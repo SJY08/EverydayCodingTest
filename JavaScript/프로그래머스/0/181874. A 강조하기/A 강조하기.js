@@ -1,0 +1,1 @@
+let solution = myString => myString.toLowerCase().replaceAll("a", "A")
