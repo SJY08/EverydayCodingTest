@@ -1,1 +1,1 @@
-let solution=(start_num,end_num)=>new Array(end_num-start_num+1).fill(0).map((_,i)=>start_num+i)
+let solution=(start_num,end_num)=>Array(end_num+1).fill(0).map((_,i) => i).slice(start_num)
