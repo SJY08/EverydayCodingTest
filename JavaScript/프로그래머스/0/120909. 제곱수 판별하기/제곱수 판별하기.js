@@ -1,0 +1,1 @@
+let solution = n => +!Number.isInteger(Math.sqrt(n)) + 1
