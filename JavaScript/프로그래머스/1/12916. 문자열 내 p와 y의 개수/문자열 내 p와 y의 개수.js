@@ -1,1 +1,1 @@
-let solution = s => [...s.toLowerCase()].filter(v=>v=="p").length == [...s.toLowerCase()].filter(v=>v=="y").length ? true:false
+let solution = s => s.toLowerCase().replaceAll("p", "").length == s.toLowerCase().replaceAll("y", "").length
