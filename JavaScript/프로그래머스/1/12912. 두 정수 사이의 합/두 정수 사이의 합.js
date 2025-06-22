@@ -1,5 +1,1 @@
-function solution(a, b) {
-    let answer = 0;
-    for(let i = Math.min(a,b) ; i <= Math.max(a,b) ; i++) answer+=i
-    return answer;
-}
+let solution = (a,b) => new Array(Math.abs(a-b)+1).fill(0).map((_, i) => Math.min(a,b) + i).reduce((a,b) => a+b, 0)
