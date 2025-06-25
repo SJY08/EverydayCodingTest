@@ -1,1 +1,1 @@
-let solution = (arr,idx) => arr.slice(idx).indexOf(1)>=0?arr.slice(idx).indexOf(1)+idx:-1
+let solution = (arr,idx) => arr.map((v,i) => i < idx ? 0 : v).indexOf(1)
