@@ -1,0 +1,1 @@
+let solution=(number1,number2)=>Math.floor(number1/number2)
