@@ -22,5 +22,5 @@ function solution(s) {
         if(stack[stack.length-1] == "(" && v == ")") stack.pop()
         else stack.push(v)
     }
-    return stack.length?false:true
+    return !stack.length > 0
 }
