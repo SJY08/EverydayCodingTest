@@ -1,1 +1,1 @@
-let solution = n => new Array(n-1).fill(1).map((v,i) => v+i+1).filter(v=> v%2 ==0).reduce((a,b) => a+b, 0)
+let solution = n => new Array(n-1).fill(2).map((v,i) => v+i).filter(v=> v%2 ==0).reduce((a,b) => a+b, 0)
