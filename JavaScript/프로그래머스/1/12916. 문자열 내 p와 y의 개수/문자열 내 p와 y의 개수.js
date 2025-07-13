@@ -1,1 +1,1 @@
-let solution = s => s.toLowerCase().replaceAll("p", "").length == s.toLowerCase().replaceAll("y", "").length
+let solution = s => s.replaceAll("p", "").replaceAll("P", "").length == s.replaceAll("y", "").replaceAll("Y", "").length
