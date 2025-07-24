@@ -1,1 +1,1 @@
-let solution = my_string => [...my_string].filter(a=>!isNaN(a)).map(a=>+a).sort((a,b)=>a-b)
+let solution = my_string => [...my_string].map(a=>+a).filter(v=> !isNaN(v)).sort((a,b)=>a-b)
