@@ -1,1 +1,3 @@
-let solution = s => +s
+function solution(s) {
+    return parseInt(s)
+}
